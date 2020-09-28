@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "next": "9.3.2",
@@ -21,6 +24,7 @@
     "swiper": "^5.3.6"
   },
   "devDependencies": {
-    "url-loader": "^4.0.0"
+    "url-loader": "^4.0.0",
+    "webpack": "^4.42.0"
   }
 }
